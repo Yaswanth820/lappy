@@ -1,0 +1,155 @@
+MipMap - Based on the image quality returns the closest suitable image.
+drawable- returns the default 
+
+
+17-4-21
+Your API key is: 2f68ba63a76e46ed9d319d9beb5fe080
+
+1.add dependency for rv.
+2.add rv widget in xml file and declare and initialise rv.
+3.Create a row.xml for every item in rv.
+4.create an adaptor class and extend it with rv and implement methods.
+5.create a holder class.
+6.create a constructor to communicate between main class and adaptor.
+7.add adapter class in main class.
+8.
+
+
+
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Prince Philip: Funeral to mark duke's love of the sea",
+      "description": "The funeral of the Duke of Edinburgh, who died earlier this month aged 99, takes place in Windsor.",
+      "url": "http://www.bbc.co.uk/news/live/uk-56783422",
+      "urlToImage": "https://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/5.1.0/bbc_news_logo.png",
+      "publishedAt": "2021-04-17T06:22:27.7388972Z",
+      "content": "Video content\r\nVideo caption: The Land Rover hearse Prince Philip designedThe Land Rover hearse Prince Philip designed\r\nIt is described as a \"ceremonial royal funeral\" and will start with a ceremonia… [+869 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Prince Philip: Queen shares one of her favourite photos",
+      "description": "Released on the eve of the duke's funeral, it shows the couple relaxing in the Scottish countryside.",
+      "url": "http://www.bbc.co.uk/news/uk-56777064",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/CCA4/production/_118088325_philip_queen_pa.jpg",
+      "publishedAt": "2021-04-17T06:22:22.177781Z",
+      "content": "image copyrightCountess of Wessex via Press Association\r\nThe Queen has shared one of her favourite photographs of herself with her husband of 73 years, the Duke of Edinburgh, on the eve of his funera… [+3727 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Brazil 'needs $10bn to reach zero emissions' says minister",
+      "description": "Brazil is also seeking aid from the US in return for protecting the Amazon rainforest.",
+      "url": "http://www.bbc.co.uk/news/world-latin-america-56781626",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/620A/production/_118089052_fc863d90-bf03-4cff-aee6-abe617b8f8d3.jpg",
+      "publishedAt": "2021-04-17T03:52:23.6839443Z",
+      "content": "image captionBrazil's environmental policies have met international condemnation\r\nBrazil's environment minister says the country needs $10bn (£7.2bn) a year in foreign aid in order to reach zero emis… [+1907 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Prince Philip: Funeral to celebrate 'unwavering loyalty' to the Queen",
+      "description": "The Duke of Edinburgh's link to the Navy and love of the sea will be a focus of the Windsor service.",
+      "url": "http://www.bbc.co.uk/news/uk-56779068",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/A454/production/_118086024_gettyimages-476361388.jpg",
+      "publishedAt": "2021-04-17T03:52:20.419131Z",
+      "content": "image copyrightGetty Images\r\nThe Duke of Edinburgh's \"unwavering loyalty\" to the Queen, service to the nation and \"courage\", will be celebrated at his funeral later.\r\nPrince Philip's association with… [+6703 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Fyre Festival: Ticket-holders to receive money from $2m class action settlement",
+      "description": "Ticket-holders of the now infamous 2017 music festival that never happened will get some money back.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-56777716",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/649E/production/_118085752_gettyimages-1065155540.jpg",
+      "publishedAt": "2021-04-17T03:07:31.3037178Z",
+      "content": "image copyrightGetty Images\r\nimage captionThe Fyre Festival was organised by now-convicted fraudster Billy McFarland (left) and rapper Ja Rule (center)\r\nFour years after the Fyre Festival fiasco, 277… [+2612 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Capitol riot: Prosecutors get first guilty plea 100 days after attack",
+      "description": "Heavy metal guitarist Jon Schaffer, a militia member, is facing 30 years in jail after pleading guilty.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-55626148",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F7C3/production/_116872436_indextop.jpg",
+      "publishedAt": "2021-04-17T03:07:29.0698992Z",
+      "content": "image copyrightGetty Images\r\nimage captionJon Schaffer, pictured wearing a blue jacket, was seen in news photos taken during the riot\r\nExactly 100 days since the 6 January riot that saw a pro-Trump m… [+15723 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "On the front line in eastern Ukraine",
+      "description": "The BBC's Jonah Fisher reports from the front line between soldiers and separatists.",
+      "url": "http://www.bbc.co.uk/news/world-europe-56776463",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/400xn/p09dy6nh.jpg",
+      "publishedAt": "2021-04-17T03:07:25.8675695Z",
+      "content": "Tensions are growing over the build-up of Russian troops at its border with Ukraine.\r\nThe BBC's Jonah Fisher reports from eastern Ukraine's front line between soldiers and separatists.\r\nVideo journal… [+49 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Nasa chooses SpaceX to build Moon lander",
+      "description": "SpaceX will build a lander that the US space agency will use to return humans to the Moon this decade.",
+      "url": "http://www.bbc.co.uk/news/science-environment-56781556",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F800/production/_118088436_for_press_release.jpg",
+      "publishedAt": "2021-04-17T03:07:20.9312999Z",
+      "content": "By Paul RinconScience editor, BBC News website\r\nimage captionThe vehicle is based on SpaceX's Starship design\r\nNasa has chosen Elon Musk's company SpaceX to build a lander that will return humans to … [+6118 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Facebook board delays decision about Trump's possible return",
+      "description": "Facebook's Oversight Board announced it will instead announce its decision \"in the coming weeks\".",
+      "url": "http://www.bbc.co.uk/news/technology-56781104",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/789E/production/_118087803_trumpstill.jpg",
+      "publishedAt": "2021-04-16T23:22:20.9456656Z",
+      "content": "By Cody GodwinBBC News, San Francisco\r\nimage copyrightGetty Images\r\nFacebook's Oversight Board has delayed its decision regarding former US President Donald Trump's possible return to Facebook and In… [+4683 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Biden keeps historically low Trump era cap on refugees",
+      "description": "The US president backtracks on a plan to raise the cap, prompting criticism from his party.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-56778721",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8E7E/production/_118087463_mediaitem118087462.jpg",
+      "publishedAt": "2021-04-16T20:07:19.737662Z",
+      "content": "image captionThe decision is said to have been influence by problems at the US-Mexico border\r\nJoe Biden is keeping the number of refugees allowed in each year to the US to historic lows, disappointin… [+1861 chars]"
+    }
+  ]
+}
+
